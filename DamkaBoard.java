@@ -10,17 +10,16 @@ public class DamkaBoard {
 		for (int i = 1; i <= n; i++) {
 			outpuString = "";
 			for (int j = 1; j <= n; j++) {
-				outpuString = outpuString + "*";
-			}
 
-			if (i % 2 != 0) { // i is odd
-				outpuString = outpuString + " ";
-			} else {
-				outpuString = " " + outpuString;
+				if (i % 2 != 0) { // i is odd
+					outpuString = outpuString + "* ";
+				} else {
+					outpuString = outpuString + " *";
+				}
 			}
 
 			System.out.println(outpuString);
-
 		}
+
 	}
 }

@@ -52,7 +52,7 @@ public class OneOfEachStats1 {
 		System.out.println("Number of families with 3 children: " + familyOf3);
 		System.out.println("Number of families with 4 or more children: " + familyOf4);
 		System.out.println("The most common number of children is "
-				+ ((mode == familyOf2) ? "2" : (mode == familyOf3) ? "3" : "4"));
+				+ ((mode == familyOf2) ? "2." : (mode == familyOf3) ? "3." : "4."));
 
 	}
 }
