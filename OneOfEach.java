@@ -3,6 +3,18 @@
  *  Simulates the formation of a family in which the parents decide 
  *  to have children until they have at least one child of each gender.
  */
+
+/*
+
+#feedback
+
+It should be avoided using predicats and logics like: (!boy || !girl), try to use instead: (boy && girl).
+because in the future when you will have to check more than 2 conditions,
+some problems will come up.
+
+*/
+
+
 public class OneOfEach {
 	public static void main (String[] args) {
 		//// Put your code here
